@@ -1,0 +1,234 @@
+@media screen and (min-width: 770px){
+   body{
+    width: 770px;
+    
+   }
+   .flexcontainer{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 44px;
+    padding-right: 44px;
+    margin-bottom: 65px;
+    margin-top: 26px;
+    
+    
+}
+
+.textsection{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.TStextandbutton{display: flex; 
+    justify-content: center;
+    padding-top: 30px;
+    padding-left: 39px;
+    padding-right: 80px;
+
+}
+.textsectionbutton{
+    display: flex;
+   
+}
+.tabletkeyboard1{display: block;}
+
+.twophotoAndtext{display: flex;
+    flex-direction: column;
+    margin-top: 25px;}
+    
+    .twophotoAndTextimg{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+   
+
+    .tabletkeyboardorange{
+        display: block;
+    }
+    .tabletkeyboard3{
+        display: block;
+    }
+
+    .twophotoAndTextimg{
+        display:flex;
+        flex-direction: row;
+        padding-left: 41px;
+        padding-right: 41px;
+     
+    }
+    .twophotoAndtextTexts{
+        display: flex;
+        flex-direction: row;
+    }
+
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-right: 50px;
+        padding-left: 20px;
+
+    }
+    .box1{
+        display: grid;
+        justify-items:flex-start;
+        align-items:flex-start;
+        gap: 24px;
+        padding-left: 7%;
+        
+    }
+
+    .box1 h4{
+      text-align:start;
+      padding: 0;
+    }
+    
+    .box1 p{
+     text-align: start;
+     padding: 0;
+    }
+    
+    
+    footer h5{
+        margin-bottom: 50px
+    }
+    .mobkeyboardorange{display: none;}
+    .mobkeyboard3{display: none;}
+    .mobkeyboard1{display: none;}
+}
+
+@media screen and (min-width: 1400px){
+    body{
+        width: 100%;
+        
+       }
+       .flexcontainer{
+        width: 100%;
+        margin-top: 64px;
+    }
+    header{ padding-left: 12%;
+    padding-right: 20%;}
+
+       .textsection{
+        display: flex;
+        padding-left: 10%;
+
+       }
+       .TStextandbutton{
+        display: flex;
+        
+       }
+
+       .TStextandbutton h1{
+        font-weight: 900;
+        font-size: 56px;
+        line-height: 56px;  
+        padding-right: 40%;
+    
+    }
+    .TStextandbutton p{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 26px;
+        padding-right: 30%;
+        
+    }
+    .TStextandbutton{
+        display: flex;
+        align-items:flex-start;
+      
+      
+       
+        
+        
+    }
+    .textsectionbutton{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 0;
+        gap: 10%;
+        
+    }
+    .fordesktop{
+        display: flex;
+       
+    }
+    .twophotoAndTextimg{
+        display: flex;
+        padding: 0;
+     
+    }
+
+
+       .deskkeyboard1 {display: block;
+    }
+  
+    .deskkeyboard1 img{
+        align-content: center;
+       
+        /* padding-right: 80%; */
+    }
+
+    .twophotoAndtext{
+        display: flex;
+        flex-direction: row;
+        margin-top: 70px;
+        padding-left: 11%;
+    }
+
+    .twophotoAndTextimg{
+        display: flex;
+        gap: 40px;
+        padding-top: 5%;
+    }
+
+    .twophotoAndtextTexts{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 10%;
+        padding-right: 10%;
+
+    }
+    main{
+        display: flex;
+        flex-direction: row;
+       padding-right: 50px;
+       padding-left: 20px;
+       padding-left: 10%;
+       padding-right: 10%;
+
+    }
+
+    .desktopkeyboardorange{
+        display: block;
+    }
+    .desktopkeyboard3{
+        display: block;
+    }
+
+       .tabletkeyboard1{
+        display: none;
+    }
+    .tabletkeyboardorange{
+        display: none;
+    }
+    .tabletkeyboard3{
+        display: none;
+    }
+      /* .deskgreybox1{
+        display: block;
+    }
+    .deskgreybox2{
+        display: block;
+    } */
+      
+}
