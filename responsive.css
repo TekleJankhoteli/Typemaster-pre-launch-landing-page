@@ -1,9 +1,13 @@
 @media screen and (min-width: 770px){
    body{
-    width: 770px;
+    width: 100%;
+    display: flex;
+   
+    justify-content: center;
     
    }
    .flexcontainer{
+    width: 770px;
     display: flex;
     flex-direction: column;
 }
@@ -69,6 +73,7 @@ header{
 
     main{
         display: grid;
+        width: 770px;
         grid-template-columns: 1fr 1fr;
         padding-right: 50px;
         padding-left: 20px;
@@ -108,10 +113,11 @@ header{
         
        }
        .flexcontainer{
-        width: 100%;
+        width: 1400px;
         margin-top: 64px;
     }
-    header{ padding-left: 12%;
+    header{
+        padding-left: 12%;
     padding-right: 20%;}
 
        .textsection{
@@ -200,6 +206,7 @@ header{
     }
     main{
         display: flex;
+        
         flex-direction: row;
        padding-right: 50px;
        padding-left: 20px;
@@ -224,11 +231,11 @@ header{
     .tabletkeyboard3{
         display: none;
     }
-      /* .deskgreybox1{
+       .deskgreybox1{
         display: block;
-    }
+    } 
     .deskgreybox2{
         display: block;
-    } */
+    } 
       
 }
