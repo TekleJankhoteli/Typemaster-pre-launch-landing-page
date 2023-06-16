@@ -118,6 +118,7 @@ header{
         justify-content: center;
         align-items: center;
         margin-top: 64px;
+       
     }
     header{width: 1150px;
        display: flex;
@@ -168,14 +169,14 @@ header{
     }
     .fordesktop{
         display: flex;
-        position: relative;
-        /* margin-right: 48px; */
+       
+    
        
     }
     .twophotoAndTextimg{
         display: flex;
         padding: 0;
-        position: relative;
+      
      
     }
 
@@ -185,8 +186,8 @@ header{
   
     .deskkeyboard1 img{
         align-content: center;
-        position: relative;
-        right:10%
+        
+        
      
     }
 
@@ -199,7 +200,7 @@ header{
 
     .twophotoAndTextimg{
         display: flex;
-        position: relative;
+       
         gap: 30px;
         padding-top: 5%;
     }
@@ -231,12 +232,15 @@ header{
     .deskgreybox1{
         display: block;
         position: absolute;
-        right: -20%;
+        right: 0;
+       
+       
     } 
     .deskgreybox2{
         display: block;
         position: absolute;
-        left: -25%;
+        left: 0;
+       
     } 
 
        .tabletkeyboard1{
